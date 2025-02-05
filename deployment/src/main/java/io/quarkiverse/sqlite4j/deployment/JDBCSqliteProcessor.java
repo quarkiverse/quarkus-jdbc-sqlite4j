@@ -24,7 +24,7 @@ import io.roastedroot.sqlite4j.SQLiteDataSource;
 @SuppressWarnings("unused")
 class JDBCSqliteProcessor {
 
-    private static final String FEATURE = "sqlite4j";
+    private static final String FEATURE = "jdbc-sqlite4j";
 
     static final String DRIVER_NAME = JDBC.class.getName();
     private static final String DATA_SOURCE_NAME = SQLiteDataSource.class.getName();
