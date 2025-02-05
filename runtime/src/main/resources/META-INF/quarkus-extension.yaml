@@ -11,3 +11,4 @@ metadata:
     - "data"
   status: "experimental"
   description: "Connect to the SQLite database via JDBC/DataSource/Hibernate"
+  icon-url: "https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg"
