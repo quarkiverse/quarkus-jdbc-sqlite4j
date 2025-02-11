@@ -1,5 +1,9 @@
 = Configuring the datasource
 
+include::./includes/attributes.adoc[]
+:diataxis-type: reference
+:categories: Database
+
 == Datasource
 
 You can find all the information about how to configure a datasource in Quarkus in https://quarkus.io/guides/datasource[the official Quarkus documentation].
