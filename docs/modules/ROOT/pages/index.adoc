@@ -13,7 +13,7 @@ If you want to use this extension, you need to add the `io.quarkiverse.jdbc:quar
 
 For instance, in your `pom.xml` file, add the following dependency:
 
-[source,xml]
+[source,xml,subs=attributes+]
 ----
 <dependency>
     <groupId>io.quarkiverse.jdbc</groupId>

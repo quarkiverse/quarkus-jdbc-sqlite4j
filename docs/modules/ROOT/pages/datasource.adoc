@@ -10,7 +10,7 @@ You can find all the information about how to configure a datasource in Quarkus 
 
 The `db-kind` used by this extension is `sqlite` so a configuration defining a default SQLite datasource looks like:
 
-[source,properties]
+[source,properties,subs=attributes+]
 ----
 quarkus.datasource.db-kind=sqlite
 quarkus.datasource.jdbc.url=... <1>
@@ -33,6 +33,9 @@ Example:: `jdbc:sqlite:/home/user/mydatabase.db`
 SQLite also supports in-memory database management, which does not create any database files.
 To use an in-memory database, specify the following JDBC URL:
 
-`jdbc:sqlite::memory:`
+[source,java,subs=attributes+]
+----
+jdbc:sqlite::memory:
+----
 
 The https://www.sqlite.org/uri.html[official documentation] and https://www.sqlite.org/c3ref/open.html#urifilenameexamples[URI Examples] go into more details and list optional parameters as well.
