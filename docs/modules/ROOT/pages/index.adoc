@@ -13,7 +13,8 @@ For instance, in your `pom.xml` file, add the following dependency:
 ----
 <dependency>
     <groupId>io.quarkiverse.jdbc</groupId>
-    <artifactId>quarkus-sqlite4j</artifactId>
+    <artifactId>quarkus-jdbc-sqlite4j</artifactId>
+    <version>{project-version}</version>
 </dependency>
 ----
 
