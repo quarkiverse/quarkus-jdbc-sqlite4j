@@ -23,7 +23,7 @@
   </scm>
   <properties>
     <quarkus.version>3.19.0</quarkus.version>
-    <sqlite4j.version>3.48.0.2</sqlite4j.version>
+    <sqlite4j.version>3.48.0.3</sqlite4j.version>
     <icu4j.version>76.1</icu4j.version>
   </properties>
   <dependencyManagement>
