@@ -8,7 +8,7 @@
   </parent>
   <groupId>io.quarkiverse.jdbc</groupId>
   <artifactId>quarkus-jdbc-sqlite4j-parent</artifactId>
-  <version>0.0.4</version>
+  <version>999-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Quarkus - SQLite4j - Parent</name>
   <modules>
@@ -19,7 +19,7 @@
     <connection>scm:git:git@github.com:quarkiverse/quarkus-jdbc-sqlite4j.git</connection>
     <developerConnection>scm:git:git@github.com:quarkiverse/quarkus-jdbc-sqlite4j.git</developerConnection>
     <url>https://github.com/quarkiverse/quarkus-jdbc-sqlite4j</url>
-    <tag>0.0.4</tag>
+    <tag>HEAD</tag>
   </scm>
   <properties>
     <quarkus.version>3.19.0</quarkus.version>
