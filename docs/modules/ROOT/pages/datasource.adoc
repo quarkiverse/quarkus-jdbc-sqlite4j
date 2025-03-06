@@ -39,3 +39,10 @@ jdbc:sqlite::memory:
 ----
 
 The https://www.sqlite.org/uri.html[official documentation] and https://www.sqlite.org/c3ref/open.html#urifilenameexamples[URI Examples] go into more details and list optional parameters as well.
+
+Please refer at this documentation for additional supported mechanisms for providing a https://github.com/roastedroot/sqlite4j/blob/main/USAGE.md#reading-database-files-in-classpaths-or-network-read-only[database URL].
+
+== Full configuration
+
+This Quarkus extension is built on top of link:https://github.com/roastedroot/sqlite4j[SQLite4j].
+Refer to its documentation for all the possible configuration options.
