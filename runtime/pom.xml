@@ -20,11 +20,6 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>com.ibm.icu</groupId>
-      <artifactId>icu4j</artifactId>
-      <version>${icu4j.version}</version>
-    </dependency>
-    <dependency>
       <!-- https://github.com/roastedroot/sqlite4j -->
       <groupId>io.roastedroot</groupId>
       <artifactId>sqlite4j</artifactId>
