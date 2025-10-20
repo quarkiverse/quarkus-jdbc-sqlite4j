@@ -9,12 +9,16 @@ Quarkus SQLite4j is a Quarkus extension for the https://www.sqlite.org/[SQLite d
 
 == Installation
 
-If you want to use this extension, you need to add the `io.quarkiverse.jdbc:quarkus-jdbc-sqlite4j` extension first.
+If you want to use this extension, you need to add both `io.quarkus:quarkus-agroal` and `io.quarkiverse.jdbc:quarkus-jdbc-sqlite4j` first.
 
 For instance, in your `pom.xml` file, add the following dependency:
 
 [source,xml,subs=attributes+]
 ----
+<dependency>
+    <groupId>io.quarkus</groupId>
+    <artifactId>quarkus-agroal</artifactId>
+</dependency>
 <dependency>
     <groupId>io.quarkiverse.jdbc</groupId>
     <artifactId>quarkus-jdbc-sqlite4j</artifactId>
