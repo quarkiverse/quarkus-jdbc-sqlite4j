@@ -17,7 +17,6 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-agroal</artifactId>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <!-- https://github.com/roastedroot/sqlite4j -->
