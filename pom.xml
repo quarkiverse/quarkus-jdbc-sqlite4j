@@ -22,7 +22,7 @@
     <tag>HEAD</tag>
   </scm>
   <properties>
-    <quarkus.version>3.30.3</quarkus.version>
+    <quarkus.version>3.30.6</quarkus.version>
     <sqlite4j.version>3.51.0.0</sqlite4j.version>
   </properties>
   <dependencyManagement>
